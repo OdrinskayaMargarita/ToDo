@@ -1,0 +1,44 @@
+.result-to-do__body .MuiListItem-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #68CC72;
+
+  border-radius: 14px;
+}
+
+.result-to-do__body .MuiListItem-root:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.item-text-check {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.items-del-complite {
+  display: flex;
+  align-items: center;
+}
+
+.items-del-complite .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.item-text {
+  margin: 0;
+}
+
+.item-text__complited-to-do {
+  background: dimgrey;
+}
+
+.item-text__complited-to-do .item-text{
+  text-decoration: line-through;
+}
+
+.item-text-check .MuiInput-root {
+  width: 100%;
+}
